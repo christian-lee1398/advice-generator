@@ -25,8 +25,8 @@ const getAdvice = async () => {
     // .catch(err => {
     //     console.log("Error", err);
     // })
-    adviceID.innerHTML = `Advice #${res.data.slip.id}`;
-    advice.innerHTML = `${res.data.slip.advice}`;
+    adviceID.innerHTML = `ADVICE #${res.data.slip.id}`;
+    advice.innerHTML = `"${res.data.slip.advice}"`;
     return res.data.slip;
 
 }
