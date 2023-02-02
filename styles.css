@@ -45,6 +45,13 @@ html, body{
 .advice-dice svg{
     color: black;
 }
+.line-svg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
 
 .dice-button{
     height: 60px;
@@ -82,6 +89,9 @@ html, body{
     .advice{
         font-size: 25px;
     }
+    .line-svg{
+        width: 20em;
+    }
 }
 @media screen and (max-width: 550px) {
     .advice-card{
@@ -93,8 +103,23 @@ html, body{
     .advice{
         font-size: 20px;
     }
-    .advice-card svg{
-
+    .line-svg{
+        width: 20em;
+    }
+}
+@media screen and (max-width: 450px) {
+    .advice-card{
+        width: 20em;
+    }
+    .advice-id{
+        font-size: x-small;
+    }
+    .advice{
+        font-size: 20px;
+    }
+    .line-svg{
+        margin-top: 30px;
+        width: 15em;
     }
 }
 
