@@ -54,7 +54,7 @@ For future projects I want to continue to demonstrate my ability to perform API 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/christian-lee1398)
+- Frontend Mentor - [@christian-lee1398](https://www.frontendmentor.io/profile/christian-lee1398)
 - LinkedIn - (https://www.linkedin.com/in/christianlee1398)
 
 
